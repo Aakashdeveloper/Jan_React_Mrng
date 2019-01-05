@@ -21,3 +21,37 @@ npm install -g gitigonre
 npm install
 npm start
 http://localhost:3000
+
+
+components
+
+functional             classbase
+light in weight        bit heavy in weight
+less function          more function
+stateless              statefull 
+
+state is local variable
+props
+
+        props
+A   ------------> B
+var name="abc"          var name =""  
+////////////
+Es5
+===========
+function add(a,b){
+    return a+b
+}
+var a = "dff"
+var b = 24
+var c = true
+/////////
+Es6
+=======
+var
+let = block scope
+const
+
+const add = (a,b) => { return a+b}
+
+JSX
