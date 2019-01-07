@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Dashboard from './dashboard';
+//Component
+import Header from './components/header';
 
 const App = () => {
     return(
         <div>
+            <Header/>
             <h1> Welcome To React</h1>
-            <Dashboard/>
         </div>
     )
 }
