@@ -12,7 +12,7 @@ class Header extends Component{
 
     inputChange(event){
         console.log(event.target.value)
-        this.setState({'search':event.target.value})
+        this.setState({'search':event.target.value?event.target.value:"enter your text"})
     }
     render(){
         return(
