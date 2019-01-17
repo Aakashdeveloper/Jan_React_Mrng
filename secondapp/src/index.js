@@ -2,8 +2,11 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter, Route, Link} from 'react-router-dom';
 
+//Components
 import Posts from './components/posts';
 import Profile from './components/profile';
+import PostDetails from './components/post_details';
+
 
 class App extends Component{
     render(){
@@ -42,8 +45,9 @@ ReactDOM.render(<BrowserRouter>
                         </nav>
                         </header>
                         <Route exact path="/" component={App}></Route>
-                        <Route path="/posts" component={Posts}></Route>
+                        <Route exact path="/posts" component={Posts}></Route>
                         <Route path="/profile" component={Profile}></Route>
+                        <Route exact path="/posts/:id" component={PostDetails}></Route>
                     </div>
                 </BrowserRouter>,document.getElementById('root'));
 
