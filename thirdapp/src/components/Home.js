@@ -12,14 +12,14 @@ class Home extends Component{
         super(props);
 
         this.state = {
-            artists:'....loading'
+            artist:''
         }
     }
     render(){
         return(
             <div>
                 <Banner/>
-                <ArtistsList artsistData ={this.state.artists}/>
+                <ArtistsList artistData={this.state.artist}/>
             </div>
         )
     }
@@ -27,9 +27,13 @@ class Home extends Component{
         fetch(URL_ARTISTS,{method:'GET'})
             .then((response) => (response.json()))
             .then(data => {
-                this.setState({artists:data})
+                this.setState({artist:data})
             })
     }
 }
 
 export default Home;
+
+
+
+
