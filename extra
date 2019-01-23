@@ -64,3 +64,16 @@ json-server --watch db.json --port 8900
 
 
 https://github.com/Aakashdeveloper
+
+
+//API in Actions
+//those connect with redux in go in the container
+// those show the view in components
+// reducers in reducers
+// all constants like url in constants
+
+mapStateToprops
+this will recive the data
+
+maDispatchTOprops
+this will connect with actions
