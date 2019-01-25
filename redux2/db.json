@@ -148,5 +148,55 @@
         10
       ]
     }
+  ],
+  "galleries1": [
+    {
+      "id": 1,
+      "artist": "Ariana Grande",
+      "title": "Lorem ipsum dolor sit amet",
+      "images": [
+        {
+          "img": "1_1.jpg",
+          "desc": "Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+        },
+        {
+          "img": "1_2.jpg",
+          "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae"
+        },
+        {
+          "img": "1_3.jpg",
+          "desc": "magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit"
+        }
+      ],
+      "views": 237,
+      "likes": [
+        18,
+        13
+      ]
+    },
+    {
+      "id": 2,
+      "artist": "Matt Damon",
+      "title": "Lorem ipsum dolor sit amet",
+      "images": [
+        {
+          "img": "2_1.jpg",
+          "desc": "Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+        },
+        {
+          "img": "2_2.jpg",
+          "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae"
+        },
+        {
+          "img": "2_3.jpg",
+          "desc": "magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit"
+        }
+      ],
+      "views": 237,
+      "likes": [
+        13,
+        10
+      ]
+    }
   ]
 }
