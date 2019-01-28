@@ -3,6 +3,7 @@ import { BrowserRouter, Route} from 'react-router-dom';
 
 // container
 import Home from '../containers/Home';
+import Details from '../containers/NewsDetails'
 
 //components
 import Header from './Header';
@@ -16,7 +17,9 @@ class App extends Component{
                     <Header/>
                     <div>
                         <Route exact path="/" component={Home}/>
+                        <Route exact path="/news/:id" component={Details}/>
                     </div>
+                    <br/><br/>
                     <Footer/>
                 </div>
             </BrowserRouter>
