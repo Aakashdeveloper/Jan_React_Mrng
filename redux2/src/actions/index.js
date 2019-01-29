@@ -48,3 +48,23 @@ export function GalleryAction(){
          payload: []
      }
  }
+
+ /////////////
+ export function selectedGalllery(id){
+    const output = fetch(`${BaseUrl}/galleries?id=${id}`,{
+        method:'GET'
+    })
+    .then(res => res.json())
+
+    return{
+        type:'GET_GALLERY_DETAIL',
+        payload: output
+    }
+ }
+ 
+export function  clearGallery(){
+     return{
+         type:'CLEAR_GALLERY',
+         payload: []
+     }
+ }

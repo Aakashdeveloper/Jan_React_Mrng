@@ -3,7 +3,8 @@ import { BrowserRouter, Route} from 'react-router-dom';
 
 // container
 import Home from '../containers/Home';
-import Details from '../containers/NewsDetails'
+import Details from '../containers/NewsDetails';
+import GalleryItem from '../containers/GalleryItem';
 
 //components
 import Header from './Header';
@@ -18,6 +19,7 @@ class App extends Component{
                     <div>
                         <Route exact path="/" component={Home}/>
                         <Route exact path="/news/:id" component={Details}/>
+                        <Route exact path="/galleries/:id" component={GalleryItem}/>
                     </div>
                     <br/><br/>
                     <Footer/>
