@@ -9,7 +9,7 @@ export default function(state={}, action){
         case 'CLEAR_NEWS':
             return {...state,clearnews:action.payload}
         case 'HANDLE_LIKES_ARTICLE':
-            return {...state,likedata:action.payload}
+            return {...state,details:[action.payload]}
         default:
             return state;
     }
