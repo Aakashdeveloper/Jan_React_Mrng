@@ -6,6 +6,8 @@ export default function(state={},action){
             return {...state,details:action.payload}
         case 'CLEAR_GALLERY':
             return {...state,clearnews:action.payload}
+        case 'HANDLE_LIKES_GALLERY':
+            return {...state,details:[action.payload]}
         default:
             return state;
     }
