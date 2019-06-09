@@ -19,6 +19,7 @@ class App extends Component{
     }
 
     filterNews(keywords){
+        
         console.log(">>>>",keywords)
         let filtered = this.state.news.filter((item)=>{
             return item.title.toLowerCase().indexOf(keywords.toLowerCase()) > -1

@@ -2,8 +2,9 @@ import { BaseUrl } from '../constants/ApiUrl';
 
 export function latestNews(){
     const output = fetch(`${BaseUrl}/articles?_end=3`,{method:'GET'})
-        .then((data) => data.json());
-    
+        .then((data) => data.json())
+        .catch(err => console.log(err));
+
     return{
         type:'GET_LATEST',
         payload:output
@@ -85,4 +86,14 @@ export function  clearGallery(){
             type:type,
             payload:out
         }
+ }
+
+ ////
+ export function postData(fname,lname){
+     console.log("coming in action fnameis", fname , "lname is ", lname)
+
+     return{
+         type:'POST_FORM',
+         payload:""
+     }
  }
